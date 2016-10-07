@@ -19,7 +19,7 @@ RUN apt-get update && apt-get -y install \
   php-pear \
   gcc \
   make \
-  php5-mysql \
+  php5-mysqlnd \
   mysql-client \
   php5-curl \
   && cd /usr/local/bin \
